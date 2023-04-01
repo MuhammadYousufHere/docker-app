@@ -1,0 +1,15 @@
+version: '1'
+services:
+  web:
+  build: .
+  ports:
+    - '3000:8080'
+  db:
+    image: 'mongoDB'
+    environment:
+      - MONGOURI=//mongo/xyz
+    volumes:
+      - db-data:/foo
+
+volumes:
+  db-data:
