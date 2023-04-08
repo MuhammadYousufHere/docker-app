@@ -1,0 +1,18 @@
+## A way to package a software that can run on any environment
+
+What is Docker vs Kubernetes?
+While Docker is a container runtime, Kubernetes is a platform for running and managing containers from many container runtimes and used mainly for scalling containers to infinite workloads.
+
+Can Kubernetes Run Without Docker? 
+The answer is both yes and no. Kubernetes, in itself, is not a complete solution. It depends on a container runtime to orchestrate; you can't manage containers without having containers in the first place.
+
+
+## Dockerfiles 
+A blueprint for building docker Image - contians the code to build the images
+## Images
+A template for running docker containers
+## Container
+It's just a running proccess
+
+## DOcker Compose
+A tool for running multiple docker contaiers at the same time
